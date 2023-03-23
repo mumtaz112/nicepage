@@ -19,6 +19,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Cambay:wght@700&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Hello, world!</title>
   </head>
@@ -59,7 +60,7 @@
     <!-- Header End -->
      
      <section class="banner-sec">
-       <div class="main-banner">
+       <div class="main-banner" data-aos="fade-right">
         <div class="banner-img">
           <img src="images/banner.png">
         </div>
@@ -71,14 +72,14 @@
        </div>
      </section>
      <section class="backbone-sec">
-       <div class="buisness-blk">
+       <div class="buisness-blk"  data-aos="fade-up">
         <div class="bu-blk">
         <h2>The backbone for internet business</h2>
         <p>Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus . Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla sit amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi nunc, et molestie ipsum iaculis sit amet.</p>
         <a href="#" class="btn">Learn More</a>
        </div>
      </div>
-       <div class="counter-blk">
+       <div class="counter-blk" data-aos="fade-down-right">
         <div class="blk-1">
           <h3>150m+</h3>
           <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
@@ -98,11 +99,11 @@
        </div>
      </section>
      <section class="service-sec">
-       <div class="service-blk">
+       <div class="service-blk" data-aos="flip-left">
         <h3>Company Services</h3>
         <p>Sample text. Click to select the text box. Click again or double click to start editing the text. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
        </div>
-       <div class="develip-blk">
+       <div class="develip-blk" data-aos="flip-left">
         <div class="dev-blk">
           <img src="images/dev1.png">
           <h3>Prototyping</h3>
@@ -125,7 +126,7 @@
       </section>
        
        <section class="payment-sec">
-         <div class="pay-blk">
+         <div class="pay-blk" data-aos="zoom-in-right">
           <div class="pay-info">
             <h2>Large payments volume or unique business model?</h2>
             <p>Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus . Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla sit amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi nunc, et molestie ipsum iaculis sit amet.</p>
@@ -154,11 +155,11 @@
          </div>
        </section>
        <section class="include-sec">
-         <div class="include-info">
+         <div class="include-info" data-aos="fade-left">
           <h2>What’s included</h2>
           <p>Get 100+ features out of the box with ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
          </div>
-         <div class="buisness-blkk">
+         <div class="buisness-blkk" data-aos="fade-right">
           <div class="buisness-1">
             <img src="images/b1.png">
             <h3>Manage business</h3>
@@ -196,7 +197,7 @@
             <a href="#" class="btn">Learn More</a>
           </div>
          </div>
-         <div class="buisness-blkk buisness-blkkk">
+         <div class="buisness-blkk buisness-blkkk" data-aos="fade-right">
           <div class="buisness-1">
             <img src="images/b1.png">
             <h3>Predictable payout</h3>
@@ -236,12 +237,12 @@
          </div>
        </section>
       <section class="wedo-sec">
-        <div class="wedo-info">
+        <div class="wedo-info" data-aos="fade-up">
           <h2>What We Do</h2>
           <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
           <img src="images/consult.png">
         </div>
-        <div class="consult-blk">
+        <div class="consult-blk" data-aos="fade-right">
          <div class="inr-blk">
           <h2>App Development</h2>
           <p>Sample text. Click to select the text box. Click again or double click to start editing the text. Excepteur sint occaecat cupidatat non</p>
@@ -265,7 +266,7 @@
         </div>
       </section>
       <section class="custom-sec">
-        <div class="custom-blk">
+        <div class="custom-blk" data-aos="fade-down-right">
           <img src="images/sol.png">
           <h2>Custom software solutions</h2>
           <p>Quam nulla porttitor massa id neque aliquam vestibulum morbi blandit. Neque vitae tempus quam pellentesque nec nam aliquam sem. Neque ornare aenean euismod.</p>
@@ -273,7 +274,7 @@
         </div>
       </section>
       <section class="contact-sec">
-        <div class="contact-blk">
+        <div class="contact-blk" data-aos="fade-right">
           <div class="contact-inr">
           <i class="fa fa-map-marker" aria-hidden="true"></i>
           <h3>OUR MAIN OFFICE</h3>
@@ -298,7 +299,7 @@
         </div>
       </section>
       <section class="touch-sec">
-        <div class="touch-blk">
+        <div class="touch-blk" data-aos="fade-down">
           <div class="touch-info">
             <h3>GET IN TOUCH</h3>
             <h6>We can ensure reliability, low cost fares and most important, with safety and comfort in mind.</h6>
@@ -329,7 +330,14 @@
       </section>
     <script src="js/all.js"></script>
     <script src="js/custom.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>    
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+  AOS.init({
+  duration: 1200,
+})
+</script>
   </body>
 </html>
 
