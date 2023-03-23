@@ -1085,5 +1085,7 @@ section.touch-sec {
 .contact-frm {
     padding-top: 20px;
 }
-
+.include-sec{
+    overflow-x:hidden
+    }
 }
