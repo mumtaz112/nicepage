@@ -400,6 +400,7 @@ section.include-sec {
     background: #edf4fd;
     padding-top: 40px;
     padding-bottom: 80px;
+    overflow-x:hidden;
 }
 .buisness-blkkk {
     padding-top: 60px;
@@ -1085,7 +1086,4 @@ section.touch-sec {
 .contact-frm {
     padding-top: 20px;
 }
-.include-sec{
-    overflow-x:hidden
-    }
 }
