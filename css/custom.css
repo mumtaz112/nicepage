@@ -619,6 +619,8 @@ section.touch-sec {
     background: #fff;
     color: #3984e4;
     text-transform: uppercase;
+    cursor:pointer;
+    outline:none;
 }
 
 .touch-info h3 {
