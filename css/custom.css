@@ -620,7 +620,7 @@ section.touch-sec {
     color: #3984e4;
     text-transform: uppercase;
     cursor:pointer;
-    outline:none;
+    outline:none!important;
 }
 
 .touch-info h3 {
