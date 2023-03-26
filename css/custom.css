@@ -855,7 +855,125 @@ header {
 @media only screen and (min-width: 1366px) and (max-width: 1920px){}
 @media only screen and (min-width: 1200px) and (max-width: 1365px){}
 @media only screen and (min-width: 992px) and (max-width: 1199px){}
-@media only screen and (min-width: 768px) and (max-width: 991px){}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+button.navbar-toggler.collapsed.d-flex.d-lg-none.flex-column.justify-content-around {
+    display: none!important;
+}
+
+.main-banner {
+    grid-template-columns: 1fr;
+}
+
+.banner-blk {
+    position: unset;
+}
+
+section.backbone-sec {
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+
+.counter-blk {
+    grid-template-columns: 1fr 1fr;
+}
+
+.counter-blk p {
+    font-size: 16px;
+}
+
+.counter-blk h3 {
+    font-size: 28px;
+}
+
+.service-blk p {
+    width: 100%;
+}
+
+.develip-blk {
+    grid-template-columns: 1fr 1fr;
+}
+
+.dev-blk {
+    margin-bottom: 22px;
+}
+
+.dev-blk p {
+    font-size: 15px;
+}
+
+.dev-blk h3 {
+    padding-bottom: 0;
+}
+
+section.service-sec {
+    padding-bottom: 50px;
+}
+
+.pay-info h2 {
+    font-size: 33px;
+    width: 100%;
+}
+
+.pay-blk {
+    grid-template-columns: 1fr;
+}
+
+.pay-info p {
+    width: 100%;
+}
+
+section.payment-sec {
+    padding-bottom: 50px;
+}
+
+.buisness-blkk {
+    grid-template-columns: 1fr 1fr;
+}
+
+.consult-blk {
+    grid-template-columns: 1fr 1fr;
+}
+
+.inr-blk {
+    margin-bottom: 22px;
+}
+
+section.wedo-sec {
+    padding-bottom: 50px;
+}
+
+.custom-blk p {
+    font-size: 18px;
+    width: 100%;
+}
+
+.custom-blk h2 {
+    font-size: 2.45rem;
+    margin: 0;
+    padding-bottom: 14px;
+}
+
+section.custom-sec {
+    padding-bottom: 50px;
+}
+
+.contact-blk {
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-inr {
+    margin-bottom: 22px;
+}
+
+.touch-blk {
+    grid-template-columns: 1fr;
+}
+
+section.touch-sec {
+    padding-bottom: 70px;
+}
+}
 @media only screen and (min-width: 520px) and (max-width: 767px){}
 @media only screen and (min-width: 300px) and (max-width: 519px){
 
