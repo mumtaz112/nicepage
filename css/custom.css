@@ -25,6 +25,9 @@ a {
 section{
     padding:2%;
 }
+.uppercase{
+    text-transform:uppercase
+}
 .carousel-item img {
     width: 100%;
 }
