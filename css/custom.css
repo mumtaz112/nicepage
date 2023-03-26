@@ -1285,4 +1285,9 @@ section.touch-sec {
 .contact-frm {
     padding-top: 20px;
 }
+.navbar-nav {
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+}    
 }
